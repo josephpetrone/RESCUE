@@ -13,5 +13,10 @@ This repo serves as a functional pipeline to perform bacterial classification an
 
 ```
 RESCUE: a Validated Nanopore Pipeline to Classify Bacteria Through Long-Read, 16S-ITS-23S rRNA Sequencing (2022)
+```
 
+## **Installation**
+This package can be installed using conda 
+```
+'Phosphate' -- 'Linker' -- '16-mer barcode' -- 'primer' 
 ```

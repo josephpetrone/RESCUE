@@ -21,9 +21,15 @@ However, this shell script can run locally after installing all programs into lo
 
 ### **Local Installations** 
 We will install all of the required programs into a conda environment
-Create a conda environment
+Create a conda environment. Please run these EXACTLY as shown below.
 ```
 conda create -n RESCUE python=3.7
 conda activate RESCUE
-pip install duplex_tools
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda install -c bioconda duplex-tools
 ```
+### **Downloading RESCUE Files**
+
+Once this finishes, RESCUE can be ran as a local 

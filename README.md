@@ -29,6 +29,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 conda install -c bioconda duplex-tools
+conda install -c bioconda nanofilt
 ```
 ## **2. Downloading RESCUE Files**
 

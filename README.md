@@ -20,6 +20,13 @@ This package is intented to be installed onto HPC systems with necessary program
 However, this shell script can run locally after installing all programs into local conda environments
 
 ### **Local Installations** 
+We will install all of the required programs into a conda environment
+Create a conda environment
 ```
-
+conda create -n RESCUE python=3.7
+conda activate RESCUE
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+pip install duplex_tools
 ```

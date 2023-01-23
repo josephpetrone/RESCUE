@@ -16,7 +16,10 @@ RESCUE: a Validated Nanopore Pipeline to Classify Bacteria Through Long-Read, 16
 ```
 
 ## **Installation**
-This package can be installed using conda 
+This package is intented to be installed onto HPC systems with necessary programs listed as modules. \
+However, this shell script can run locally after installing all programs into local conda environments
+
+### **Local Installations** 
 ```
-'Phosphate' -- 'Linker' -- '16-mer barcode' -- 'primer' 
+
 ```

@@ -15,11 +15,11 @@ This repo serves as a functional pipeline to perform bacterial classification an
 RESCUE: a Validated Nanopore Pipeline to Classify Bacteria Through Long-Read, 16S-ITS-23S rRNA Sequencing (2022)
 ```
 
-## **Installation**
+## **1. Installation**
 This package is intented to be installed onto HPC systems with necessary programs listed as modules. \
 However, this shell script can run locally after installing all programs into local conda environments
 
-### **Local Installations** 
+### **1a. Local Installations** 
 We will install all of the required programs into a conda environment
 Create a conda environment. Please run these EXACTLY as shown below.
 ```
@@ -30,6 +30,9 @@ conda config --add channels bioconda
 conda config --add channels conda-forge
 conda install -c bioconda duplex-tools
 ```
-### **Downloading RESCUE Files**
+## **2. Downloading RESCUE Files**
 
 Once this finishes, RESCUE can be ran as a local 
+``
+wget 
+```

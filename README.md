@@ -25,8 +25,5 @@ Create a conda environment
 ```
 conda create -n RESCUE python=3.7
 conda activate RESCUE
-conda config --add channels defaults
-conda config --add channels bioconda
-conda config --add channels conda-forge
 pip install duplex_tools
 ```

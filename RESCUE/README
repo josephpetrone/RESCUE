@@ -8,7 +8,7 @@
 ##
 ## $chmod +wrx ./RESCUE.sh
 ## $chmod +wrx ./sbatch/RESCUE_sbatch.sh
-## $chmod +wrx ./sbarch/RESUCE.R
+## $chmod +wrx ./sbatch/RESUCE.R
 ##
 ## ./RESCUE.sh -help
 ##

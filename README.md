@@ -32,15 +32,17 @@ conda install -c bioconda duplex-tools
 conda install -c bioconda nanofilt
 ```
 ## **2. Downloading RESCUE Files**
-1. Click "Code" at top right of this github repo 
-2. Click "Download as ZIP" 
-3. Unzip and place in a directory structure you will need to access to run from
+```
+wget https://www.dropbox.com/s/6v97gecz9lqcyoe/RESCUE.tar.gz .
+tar –xvzf RESCUE.tar.gz –C /path/to/destination
+```
 
 ## **3. Testing install**
 Once this finishes, RESCUE can be ran as a local installation
 
-``
-cd /path/to/RESCUE-directory/
+```
+cd /path/to/RESCUE/
+chmod +wrx ./RESCUE.sh
 conda activate RESCUE
 ./RESCUE.sh -h
 ```

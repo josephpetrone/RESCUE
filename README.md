@@ -42,7 +42,6 @@ Once this finishes, RESCUE can be ran as a local installation
 
 ```
 cd /path/to/RESCUE/
-chmod +wrx ./RESCUE.sh
 conda activate RESCUE
 ./RESCUE.sh -h
 ```

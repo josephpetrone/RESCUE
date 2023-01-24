@@ -32,8 +32,8 @@ conda install -c bioconda duplex-tools
 conda install -c bioconda nanofilt
 ```
 ## **2. Downloading RESCUE Files**
-1. Click "Code" at top right of this github repo \
-2. Click "Download as ZIP" \
+1. Click "Code" at top right of this github repo 
+2. Click "Download as ZIP" 
 3. Unzip and place in a directory structure you will need to access to run from
 
 ## **3. Testing install**

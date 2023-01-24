@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:632ea9cac5a1f69c9cc6451e1e384505979204a7483459ba56b991bedd07c139
-size 538
+## Hey everyone, nice to see you here 
+## Thank you for reading me first
+## 
+## To run this script, you need one thing
+## • fastq files uploaded somewhere on the HPC
+## 
+## To run this script, please run the following commands first
+##
+## $chmod +wrx ./RESCUE.sh
+## $chmod +wrx ./sbatch/RESCUE_sbatch.sh
+## $chmod +wrx ./sbarch/RESUCE.R
+##
+## ./RESCUE.sh -help
+##
+## Please provide THE FULL PATH to all files and directories needed
+##
+## If you need more assistance, please email:
+##
+## Joseph Petrone
+## josephpetrone5@gmail.com
+##
+##

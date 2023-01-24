@@ -34,7 +34,7 @@ conda install -c bioconda nanofilt
 ## **2. Downloading RESCUE Files**
 ```
 wget https://www.dropbox.com/s/6v97gecz9lqcyoe/RESCUE.tar.gz .
-tar –xvzf RESCUE.tar.gz –C /path/to/destination
+tar –xvzf RESCUE.tar.gz -C /path/to/desired/destination
 ```
 
 ## **3. Testing install**

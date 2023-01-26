@@ -70,11 +70,25 @@ options:\
 -r&emsp;(Beta) Use command line R for file manipulation ( yes | no )\
 -p&emsp;(Optional) path to mapping file if using RStudio\
 
-example usage: \
-./RESCUE.sh -i /full/path/to/fastq/directory -o /full/path/to/RRN_pipeline_output -m 50gb -t 40 -d RRN_db -s yes -r yes -p /path/to/mapping.txt \
-
+example usage:\
+```
+./RESCUE.sh -i /full/path/to/fastq/directory \
+-o /full/path/to/RRN_pipeline_output \
+-m 50gb \
+-t 40 \
+-d RRN_db \
+-s no \
+-r yes \
+-p /path/to/mapping.txt \
+-b 0.5 \
+```
 DO NOT SUBMIT THIS SCRIPT DIRECTLY THROUGH SLURM. USE USAGE ABOVE AND TRUST ME!
 
 ## **5. Adding Databases**
-For the current version of 
-```
+For the current version of RESCUE, three databases are available:\
+1. RRN_db
+2. EMU_db
+3. RDP
+For use of additional databases such as SILVA or UNITE, please visit https://gitlab.com/treangenlab/emu and download database files directly to "/path/to/RESCUE/databases/database_name" and call using folder name. \
+Additionally, one RESCUE environment is loaded, you can use default EMU commands to make a database.
+

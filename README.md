@@ -29,11 +29,11 @@ conda activate RESCUE
 conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
-conda install -c bioconda duplex-tools
-conda install -c bioconda nanofilt
+conda install -c bioconda duplex-tools nanofilt
 ```
 ## **2. Downloading RESCUE Files**
 ```
+cd ~/Downloads
 wget https://www.dropbox.com/s/6v97gecz9lqcyoe/RESCUE.tar.gz .
 tar –xvzf RESCUE.tar.gz -C /path/to/desired/destination
 ```

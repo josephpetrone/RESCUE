@@ -70,7 +70,7 @@ options:\
 -r&emsp;(Beta) Use command line R for file manipulation ( yes | no )\
 -p&emsp;(Optional) path to mapping file if using RStudio\
 
-example usage:\
+example usage:
 ```
 ./RESCUE.sh -i /full/path/to/fastq/directory \
 -o /full/path/to/RRN_pipeline_output \
@@ -80,7 +80,7 @@ example usage:\
 -s no \
 -r yes \
 -p /path/to/mapping.txt \
--b 0.5 \
+-b 0.5 
 ```
 DO NOT SUBMIT THIS SCRIPT DIRECTLY THROUGH SLURM. USE USAGE ABOVE AND TRUST ME!
 

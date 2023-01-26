@@ -55,20 +55,20 @@ conda activate RESCUE
 Syntax: scriptTemplate [-h|i|o|t|m|b|d|s|a|q|r|p] \
 Please omit final / from all directory paths!!! \
 
-options: \
--h &emsp;    Print this Help. \
--i &emsp;    Directory to input fastq's. \
--o &emsp;    Directory where you want 'RRN_pipeline' output directories. \
--t &emsp;    Numerical number of threads. (Default: 5) \
--m &emsp;    Total RAM (Ngb) Must include gb after numerical entry (Default: 20gb) \
--b &emsp;	   Barcode mismatch error rate max (Cutadapt demultiplexing) \
-&emsp; &emsp;	        •Error rate X 16 bases = mismatch # (rounded down) (Default: 0.05 = 0.8 = 0 Mismatch) \
--d &emsp;    Database options ( RRN_db | EMU_db | RDP ) \
--s &emsp;    Slurm submission option ( yes | no ) \
--a &emsp;&emsp;	      Slurm account to submit under (Default: Triplett) \
--q &emsp;&emsp;	      Slurm QOS to submit under (Default: Triplett-b) \
--r &emsp;    (Beta) Use command line R for file manipulation ( yes | no ) \
--p &emsp;    (Optional) path to mapping file if using RStudio \
+options:\
+-h&emsp;Print this Help.\
+-i&emsp;Directory to input fastq's.\
+-o&emsp;Directory where you want 'RRN_pipeline' output directories.\
+-t&emsp;Numerical number of threads. (Default: 5)\
+-m&emsp;Total RAM (Ngb) Must include gb after numerical entry (Default: 20gb)\
+-b&emsp;Barcode mismatch error rate max (Cutadapt demultiplexing)\
+&emsp;&emsp;•Error rate X 16 bases = mismatch # (rounded down) (Default: 0.05 = 0.8 = 0 Mismatch)\
+-d&emsp;Database options ( RRN_db | EMU_db | RDP )\
+-s&emsp;Slurm submission option ( yes | no )\
+-a&emsp;&emsp;Slurm account to submit under (Default: Triplett)\
+-q&emsp;&emsp;Slurm QOS to submit under (Default: Triplett-b)\
+-r&emsp;(Beta) Use command line R for file manipulation ( yes | no )\
+-p&emsp;(Optional) path to mapping file if using RStudio\
 
 example usage: \
 ./RESCUE.sh -i /full/path/to/fastq/directory -o /full/path/to/RRN_pipeline_output -m 50gb -t 40 -d RRN_db -s yes -r yes -p /path/to/mapping.txt \

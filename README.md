@@ -35,7 +35,7 @@ conda install -c bioconda duplex-tools nanofilt
 ```
 cd ~/Downloads
 wget https://www.dropbox.com/s/6v97gecz9lqcyoe/RESCUE.tar.gz .
-tar –xvzf RESCUE.tar.gz -C /path/to/desired/destination
+tar –xvzf ./RESCUE.tar.gz
 ```
 
 ## **3. Testing install**

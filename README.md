@@ -45,3 +45,36 @@ cd /path/to/RESCUE/
 conda activate RESCUE
 ./RESCUE.sh -h
 ```
+## **4. Quick Test Run**
+```
+cd /path/to/RESCUE/
+conda activate RESCUE
+./RESCUE.sh -i /path/to/RESCUE/test/input/fastq -o /path/to/RESCUE/test/output -m 10gb -t 4 -d RRN_db -s no -r yes
+```
+## **5. Full Options**
+Syntax: scriptTemplate [-h|i|o|t|m|b|d|s|a|q|r|p]
+Please omit final / from all directory paths!!!
+
+options:
+-h     Print this Help.
+-i     Directory to input fastq's.
+-o     Directory where you want 'RRN_pipeline' output directories.
+-t     Numerical number of threads. (Default: 5)
+-m     Total RAM (Ngb) Must include gb after numerical entry (Default: 20gb)
+-b 	   Barcode mismatch error rate max (Cutadapt demultiplexing)
+	        •Error rate X 16 bases = mismatch # (rounded down) (Default: 0.05 = 0.8 = 0 Mismatch)
+-d     Database options ( RRN_db | EMU_db | RDP )
+-s     Slurm submission option ( yes | no )
+-a	      Slurm account to submit under (Default: Triplett)
+-q	      Slurm QOS to submit under (Default: Triplett-b)
+-r     (Beta) Use command line R for file manipulation ( yes | no )
+-p     (Optional) path to mapping file if using RStudio
+
+example usage:
+./RESCUE.sh -i /full/path/to/fastq/directory -o /full/path/to/RRN_pipeline_output -m 50gb -t 40 -d RRN_db -s yes -r yes -p /path/to/mapping.txt
+
+DO NOT SUBMIT THIS SCRIPT DIRECTLY THROUGH SLURM. USE USAGE ABOVE AND TRUST ME!
+
+## **5. Adding Databases**
+For the current version of 
+```

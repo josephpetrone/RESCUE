@@ -52,6 +52,8 @@ conda activate RESCUE
 cd /path/to/RESCUE/
 conda activate RESCUE
 ./RESCUE.sh -i /path/to/RESCUE/test/input/fastq -o /path/to/RESCUE/test/output -m 10gb -t 4 -d RRN_db -s no -r yes
+
+MAKE SURE TO PROVIDE THE ENTIRE PATH TO THE INSTALLATION. SIMPLY PUTTING "./" WILL NOT WORK
 ```
 ## **5. Full Options**
 Syntax: scriptTemplate [-h|i|o|t|m|b|d|s|a|q|r|p] \

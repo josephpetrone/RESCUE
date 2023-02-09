@@ -25,6 +25,7 @@ We will install all of the required programs into a conda environment
 Create a conda environment. Please run these EXACTLY as shown below.
 ```
 conda create -n RESCUE python=3.7 emu cutadapt
+CONDA_BASE=$(conda info --base)
 conda activate RESCUE
 conda config --add channels defaults
 conda config --add channels bioconda

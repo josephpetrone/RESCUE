@@ -13,8 +13,8 @@ This repo serves as a functional pipeline to perform bacterial classification an
 
 ```
 RESCUE: a Validated Nanopore Pipeline to Classify Bacteria Through Long-Read, 16S-ITS-23S rRNA Sequencing (2022)
-[Detailed Steps](https://github.com/josephpetrone/RESCUE/deatiled_steps.md) for full individual explanations
 ```
+[Detailed Steps](https://github.com/josephpetrone/RESCUE/detailed_steps.md) for full individual explanations
 
 ## **1. Installation**
 This package is intented to be installed onto HPC systems with necessary programs listed as modules. \

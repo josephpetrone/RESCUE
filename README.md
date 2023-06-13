@@ -13,7 +13,7 @@ This repo serves as a functional pipeline to perform bacterial classification an
 
 ```
 RESCUE: a Validated Nanopore Pipeline to Classify Bacteria Through Long-Read, 16S-ITS-23S rRNA Sequencing (2022)
-1st RESCUE REPO (and more explanations) https://github.com/josephpetrone/Nanopore-RRN-Sequencing/blob/main/README.md for oldest version
+1st RESCUE REPO (and more explanations) https://github.com/josephpetrone/RESCUE/deatiled_steps.md for full individual explanations
 ```
 
 ## **1. Installation**
@@ -34,9 +34,7 @@ conda install -c bioconda duplex-tools nanofilt
 ```
 ## **2. Downloading RESCUE Files**
 ```
-cd ~/Downloads
-wget https://www.dropbox.com/s/6v97gecz9lqcyoe/RESCUE.tar.gz .
-tar –xvzf ./RESCUE.tar.gz
+git clone https://github.com/josephpetrone/RESCUE.git
 ```
 
 ## **3. Testing install**

@@ -35,6 +35,9 @@ conda install -c bioconda duplex-tools nanofilt
 ## **2. Downloading RESCUE Files**
 ```
 git clone https://github.com/josephpetrone/RESCUE.git
+cd ./RESCUE
+wget https://www.dropbox.com/s/f4oyl8ufj6bzqtz/databases.tar.gz
+tar –xvzf ./databases.tar.gz
 ```
 
 ## **3. Testing install**
